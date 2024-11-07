@@ -1,0 +1,22 @@
+D:\Dot net techology\QuanCayDucHue\QuanLyBanHang\bin\Debug\QuanLyBanHang.exe.config
+D:\Dot net techology\QuanCayDucHue\QuanLyBanHang\bin\Debug\QuanLyBanHang.exe
+D:\Dot net techology\QuanCayDucHue\QuanLyBanHang\bin\Debug\QuanLyBanHang.pdb
+D:\Dot net techology\QuanCayDucHue\QuanLyBanHang\obj\Debug\QuanLyBanHang.csproj.AssemblyReference.cache
+D:\Dot net techology\QuanCayDucHue\QuanLyBanHang\obj\Debug\QuanLyBanHang.Properties.Resources.resources
+D:\Dot net techology\QuanCayDucHue\QuanLyBanHang\obj\Debug\QuanLyBanHang.csproj.GenerateResource.cache
+D:\Dot net techology\QuanCayDucHue\QuanLyBanHang\obj\Debug\QuanLyBanHang.csproj.CoreCompileInputs.cache
+D:\Dot net techology\QuanCayDucHue\QuanLyBanHang\obj\Debug\QuanLyBanHang.exe
+D:\Dot net techology\QuanCayDucHue\QuanLyBanHang\obj\Debug\QuanLyBanHang.pdb
+D:\Dot net techology\QuanCayDucHue\QuanLyBanHang\obj\Debug\QuanLyBanHang.ADMIN.resources
+D:\Dot net techology\QuanCayDucHue\QuanLyBanHang\obj\Debug\QuanLyBanHang.LoginForm.resources
+C:\Users\admin\Desktop\QuanCayDucHue\QuanLyBanHang\bin\Debug\QuanLyBanHang.exe.config
+C:\Users\admin\Desktop\QuanCayDucHue\QuanLyBanHang\bin\Debug\QuanLyBanHang.exe
+C:\Users\admin\Desktop\QuanCayDucHue\QuanLyBanHang\bin\Debug\QuanLyBanHang.pdb
+C:\Users\admin\Desktop\QuanCayDucHue\QuanLyBanHang\obj\Debug\QuanLyBanHang.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\QuanCayDucHue\QuanLyBanHang\obj\Debug\QuanLyBanHang.ADMIN.resources
+C:\Users\admin\Desktop\QuanCayDucHue\QuanLyBanHang\obj\Debug\QuanLyBanHang.LoginForm.resources
+C:\Users\admin\Desktop\QuanCayDucHue\QuanLyBanHang\obj\Debug\QuanLyBanHang.Properties.Resources.resources
+C:\Users\admin\Desktop\QuanCayDucHue\QuanLyBanHang\obj\Debug\QuanLyBanHang.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\QuanCayDucHue\QuanLyBanHang\obj\Debug\QuanLyBanHang.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\QuanCayDucHue\QuanLyBanHang\obj\Debug\QuanLyBanHang.exe
+C:\Users\admin\Desktop\QuanCayDucHue\QuanLyBanHang\obj\Debug\QuanLyBanHang.pdb
