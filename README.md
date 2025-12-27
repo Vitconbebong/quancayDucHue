@@ -1,52 +1,52 @@
-# Quản Lý Bán Hàng (QuanCayDucHue)
+# Sales Management (QuanCayDucHue)
 
-Đây là ứng dụng quản lý bán hàng được xây dựng trên nền tảng Windows Forms.
+This is a sales management application built on the Windows Forms platform.
 
-## Công nghệ sử dụng
+## Technologies Used
 
-- **Ngôn ngữ**: C#
+- **Language**: C#
 - **Framework**: .NET Framework 4.7.2
-- **Giao diện**: Windows Forms
-- **Cơ sở dữ liệu**: SQL Server
-- **Kiến trúc**: MVC (Model-View-Controller)
+- **UI**: Windows Forms
+- **Database**: SQL Server
+- **Architecture**: MVC (Model-View-Controller)
 
-## Cấu trúc dự án
+## Project Structure
 
-- `QuanLyBanHang/Controllers`: Chứa logic nghiệp vụ và điều khiển.
-- `QuanLyBanHang/Models`: Chứa các lớp tương tác với cơ sở dữ liệu (sử dụng ADO.NET).
-- `QuanLyBanHang/Views`: Chứa giao diện người dùng (Forms).
-- `DataBase`: Chứa các script SQL để khởi tạo cơ sở dữ liệu.
+- `QuanLyBanHang/Controllers`: Contains business logic and controllers.
+- `QuanLyBanHang/Models`: Contains classes for interacting with the database (using ADO.NET).
+- `QuanLyBanHang/Views`: Contains the user interface (Forms).
+- `DataBase`: Contains SQL scripts for initializing the database.
 
-## Hướng dẫn cài đặt và chạy
+## Installation and Setup
 
-### 1. Chuẩn bị Cơ sở dữ liệu
+### 1. Database Preparation
 
-1. Mở SQL Server Management Studio (SSMS).
-2. Chạy các file script SQL trong thư mục `QuanCayDucHue/DataBase/` theo thứ tự:
-   - `Data.sql`: Tạo bảng và dữ liệu mẫu.
-   - `Permission.sql`: Thiết lập quyền (nếu có).
+1. Open SQL Server Management Studio (SSMS).
+2. Run the SQL script files in the `QuanCayDucHue/DataBase/` directory in the following order:
+   - `Data.sql`: Creates tables and sample data.
+   - `Permission.sql`: Sets up permissions (if applicable).
 
-### 2. Cấu hình kết nối
+### 2. Connection Configuration
 
-Mặc định, chuỗi kết nối đang được cấu hình cho server `VITCONBEBONG`. Bạn cần thay đổi nó để phù hợp với môi trường của bạn.
+By default, the connection string is configured for the server `VITCONBEBONG`. You need to change this to match your environment.
 
-1. Mở file `QuanCayDucHue/QuanLyBanHang/Models/ADO.cs`.
-2. Tìm phương thức `sqlConnection` và biến `connectionString`:
+1. Open the file `QuanCayDucHue/QuanLyBanHang/Models/ADO.cs`.
+2. Find the `sqlConnection` method and the `connectionString` variable:
    ```csharp
    string connectionString = $@"server = VITCONBEBONG;
                                 database = QuanLyBanHang;
                                 user = {username};
                                 password = {password};";
    ```
-3. Thay đổi `server = VITCONBEBONG` thành tên server SQL của bạn (ví dụ: `server = .\\SQLEXPRESS` hoặc `server = localhost`).
+3. Change `server = VITCONBEBONG` to your SQL Server instance name (e.g., `server = .\\SQLEXPRESS` or `server = localhost`).
 
-### 3. Chạy ứng dụng
+### 3. Running the Application
 
-1. Mở file solution `QuanCayDucHue/QuanCayDucHue.sln` bằng Visual Studio.
-2. Nhấn **Start** hoặc **F5** để biên dịch và chạy ứng dụng.
+1. Open the solution file `QuanCayDucHue/QuanCayDucHue.sln` with Visual Studio.
+2. Press **Start** or **F5** to build and run the application.
 
-## Yêu cầu hệ thống
+## System Requirements
 
-- Visual Studio (2019 hoặc mới hơn).
+- Visual Studio (2019 or newer).
 - SQL Server.
 - .NET Framework 4.7.2.
